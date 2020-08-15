@@ -1,0 +1,79 @@
+body {
+  background-color: #050505;
+  color: #e4f9ff;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive
+}
+
+
+.parallax {
+  background-image: url("images/dragonfly.jpg");
+  height: 500px;
+  width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+}
+
+.parallax2 {
+  background-image: url("images/dragonfly2.jpg");
+  height: 350px;
+}
+
+
+.title {
+  text-align: center;
+  padding: 4% 10%;
+  color: #fff;
+  font-size: 3.5rem;
+  font-family: "Righteous", cursive;
+}
+
+#category {
+  margin: 5% 5%;
+}
+
+.row-category {
+  margin-top: 8%;
+}
+
+.categoryIcon{
+  padding-bottom: 30px;
+}
+
+.categoryIcon:hover {
+  color: #8fc0a9;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 1em;
+}
+
+.ml2 .letter {
+  display: inline;
+  line-height: 1em;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
