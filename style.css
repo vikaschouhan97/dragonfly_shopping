@@ -2,14 +2,15 @@ body {
   background-color: #050505;
   color: #e4f9ff;
   text-align: center;
-  font-family: 'Architects Daughter', cursive
+  font-family: 'Architects Daughter', cursive;
+  width: 100%;
 }
 
 
 .parallax {
   background-image: url("images/dragonfly.jpg");
   height: 500px;
-  width: auto;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +22,7 @@ body {
 .parallax2 {
   background-image: url("images/dragonfly2.jpg");
   height: 350px;
+  width: 100%;
 }
 
 
@@ -30,10 +32,12 @@ body {
   color: #fff;
   font-size: 3.5rem;
   font-family: "Righteous", cursive;
+  margin-right: 0%;
 }
 
 #category {
   margin: 5% 5%;
+  text-align: center;
 }
 
 .row-category {
@@ -50,7 +54,7 @@ body {
 
 .ml2 {
   font-weight: 900;
-  font-size: 1em;
+  font-size: 3em;
 }
 
 .ml2 .letter {
