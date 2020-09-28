@@ -102,7 +102,7 @@ body {
 
 #testimonials {
   text-align: center;
-  margin: 7% 7%;
+  margin: 7% 15%;
 }
 
 .testimonails-image{
@@ -112,6 +112,10 @@ body {
 }
 .carousel-item{
   padding: 7% 15%;
+}
+
+.footer {
+  margin-bottom: 5%;
 }
 
 
